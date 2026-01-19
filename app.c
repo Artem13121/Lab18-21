@@ -1,4 +1,4 @@
-```
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -220,4 +220,3 @@ void edit_one(car_t* c, int index) {
     printf("Год регистрации: ");
     scanf("%d", &c[index].reg_year);
 }
-```
